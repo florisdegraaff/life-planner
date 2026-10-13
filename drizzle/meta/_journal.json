@@ -15,6 +15,76 @@
       "when": 1791901449027,
       "tag": "0001_spicy_natasha_romanoff",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791910864627,
+      "tag": "0002_sticky_xorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791911367541,
+      "tag": "0003_eminent_wong",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791912116435,
+      "tag": "0004_clean_magik",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791913154450,
+      "tag": "0005_daily_steve_rogers",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791914142805,
+      "tag": "0006_smart_demogoblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1791914407652,
+      "tag": "0007_open_night_nurse",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1791915769520,
+      "tag": "0008_lethal_william_stryker",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1791915945956,
+      "tag": "0009_lying_madame_masque",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1791916861246,
+      "tag": "0010_dazzling_jackal",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1791918365345,
+      "tag": "0011_busy_skrulls",
+      "breakpoints": true
     }
   ]
 }

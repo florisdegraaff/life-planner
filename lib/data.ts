@@ -83,59 +83,8 @@ export const overview = {
 /* ---------- Finance ---------- */
 
 export const finance = {
-  month: "October 2026",
-  summary: [
-    { label: "Income", value: "€ 2.887,90", note: "1 transaction · salary" },
-    { label: "Expenses", value: "€ 2.065,50", note: "62% of € 3.350,00 budget" },
-    { label: "Debt payments", value: "€ 210,00", note: "scheduled 28-10 · DUO", tone: "accent" as const },
-    { label: "Net (projected)", value: "+ € 612,40", note: "after scheduled payments", tone: "inverse" as const },
-  ],
   budget: { left: "€ 1.284,50", total: "€ 3.350,00", spent: "€ 2.065,50", pct: 62, daysLeft: 18, net: "+ € 612,40" },
-  // Bar heights in px on a 200px chart.
-  cashflow: [
-    { month: "May", income: 143, expenses: 121 },
-    { month: "Jun", income: 143, expenses: 131 },
-    { month: "Jul", income: 143, expenses: 155 },
-    { month: "Aug", income: 143, expenses: 119 },
-    { month: "Sep", income: 145, expenses: 128 },
-    { month: "Oct", income: 145, expenses: 104, partial: true },
-  ],
-  categories: [
-    { name: "Housing", amount: "€ 1.150,00", pct: 100 },
-    { name: "Groceries", amount: "€ 312,40", pct: 27 },
-    { name: "Utilities & other", amount: "€ 151,38", pct: 13 },
-    { name: "Insurance", amount: "€ 148,25", pct: 13 },
-    { name: "Transport", amount: "€ 148,00", pct: 13 },
-    { name: "Eating out", amount: "€ 96,50", pct: 8, flagged: true },
-    { name: "Subscriptions", amount: "€ 58,97", pct: 5 },
-  ],
-  categoryNote: "Eating out is 21% above your 3-month average.",
-  transactions: [
-    { date: "13-10", desc: "Albert Heijn", cat: "Groceries", by: "rule", type: "expense", rec: "One-off", amount: "− € 38,72" },
-    { date: "12-10", desc: "NS Reizen", cat: "Transport", by: "AI", type: "expense", rec: "One-off", amount: "− € 14,20" },
-    { date: "10-10", desc: "Thuisbezorgd", cat: "Eating out", by: "AI", type: "expense", rec: "One-off", amount: "− € 27,50" },
-    { date: "09-10", desc: "Jumbo", cat: "Groceries", by: "rule", type: "expense", rec: "One-off", amount: "− € 52,18" },
-    { date: "05-10", desc: "Vattenfall", cat: "Utilities", by: "rule", type: "expense", rec: "Monthly", amount: "− € 92,00" },
-    { date: "03-10", desc: "Basic-Fit", cat: "Subscriptions", by: "rule", type: "expense", rec: "Monthly", amount: "− € 29,99" },
-    { date: "01-10", desc: "Rent", cat: "Housing", by: "rule", type: "expense", rec: "Monthly", amount: "− € 1.150,00" },
-    { date: "01-10", desc: "Salary", cat: "Income", by: "rule", type: "income", rec: "Monthly", amount: "+ € 2.887,90" },
-    { date: "28-09", desc: "DUO", cat: "Debt", by: "rule", type: "debt", rec: "Monthly", amount: "− € 210,00" },
-  ] as Transaction[],
   studentLoan: { name: "Student loan · DUO", remaining: "€ 18.600", pct: 38, total: "€ 30.000", monthly: "€ 210 / month", eta: "≈ 2034" },
-  paidOff: [{ name: "Credit card", when: "Mar 2026" }],
-  recurring: { recurringCount: 9, recurringAmount: "€ 1.607,22", oneOffCount: 31, oneOffAmount: "€ 458,28", pct: 78 },
-};
-
-export type TransactionType = "income" | "expense" | "debt";
-
-export type Transaction = {
-  date: string;
-  desc: string;
-  cat: string;
-  by: "rule" | "AI";
-  type: TransactionType;
-  rec: string;
-  amount: string;
 };
 
 /* ---------- Recipes ---------- */

@@ -1,0 +1,1 @@
+ALTER TABLE "recurring_payments" ADD COLUMN "ignored" boolean DEFAULT false NOT NULL;

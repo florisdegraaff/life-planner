@@ -3,7 +3,7 @@
 import { useActionState } from "react";
 import { changePassword, type PasswordState } from "@/app/(app)/settings/actions";
 import { button, cx } from "../ui";
-import { Field } from "./field";
+import { Field } from "@/components/field";
 
 // Password fields are never echoed back from the server, so React's automatic form
 // reset after each submit clears them.

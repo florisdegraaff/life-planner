@@ -3,7 +3,7 @@
 import { useActionState } from "react";
 import { updateProfile, type ProfileState } from "@/app/(app)/settings/actions";
 import { button, cx } from "../ui";
-import { Field } from "./field";
+import { Field } from "@/components/field";
 
 export function ProfileForm({ initial }: { initial: { name: string; email: string } }) {
   const [state, formAction, pending] = useActionState<ProfileState, FormData>(updateProfile, { values: initial });

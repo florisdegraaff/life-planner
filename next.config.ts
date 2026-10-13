@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     agentFeedback: true,
+    // Bank CSV exports covering a year or more easily exceed the 1MB default.
+    serverActions: { bodySizeLimit: "5mb" },
   },
   cacheComponents: true,
   partialPrefetching: true,

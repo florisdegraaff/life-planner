@@ -1,5 +1,5 @@
 import type { ComponentProps } from "react";
-import { cx } from "../ui";
+import { cx } from "./ui";
 
 /** Labelled text input with an optional error message underneath. */
 export function Field({ label, name, error, ...props }: ComponentProps<"input"> & { label: string; name: string; error?: string }) {
