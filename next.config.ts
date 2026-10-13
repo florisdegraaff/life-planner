@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  devIndicators: {
+    position: 'bottom-right', // 'bottom-left' | 'bottom-right' | 'top-left' | 'top-right'
+  },
   experimental: {
     agentFeedback: true,
   },

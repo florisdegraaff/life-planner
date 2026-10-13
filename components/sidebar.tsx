@@ -130,8 +130,8 @@ export function Sidebar() {
             </span>
           </button>
 
-          <a
-            href="#settings"
+          <Link
+            href="/settings"
             onClick={closeMenu}
             className="mt-3 flex min-h-11 items-center gap-2.5 border-t border-[#332B42] pt-2 text-sm text-[#D2CBE0] no-underline hover:text-white"
           >
@@ -139,7 +139,7 @@ export function Sidebar() {
               {user.initials}
             </span>
             {user.name}
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
